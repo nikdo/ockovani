@@ -125,15 +125,29 @@ p.answer {
   padding: 7px 10px 10px;
 }
 
-.credits {
+ul.credits {
   text-align: center;
   margin-top: 0;
   font-size: 0.667rem; /* 10.667px */
+  line-height: 1rem; /* 16px; 2/3*baseline */
+  list-style: none;
 }
 
-.credits a {
+ul.credits a {
   color: inherit;
 }
+
+ul.credits li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+}
+
+ul.credits li:not(:last-of-type)::after {
+  content: ' • ';
+}
+
 
 @media only screen and (min-width: 25em) {
   .comparison {
