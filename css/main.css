@@ -1,14 +1,15 @@
 /* Modular scale: https://www.modularscale.com/?16,20&px&1.5 */
+/* Icon sources: https://www.flaticon.com/packs/coronavirus-155 */
 
 html {
   font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
-  line-height: 1.4;
+  font-size: 16px; /* 1rem; 2/3*baseline */
+  line-height: 1.5rem; /* 24px; 1*baseline */
   color: #222;
 }
 
 body {
-  margin: 1rem;
+  margin: 1.5rem 1rem; /* 24px 16px; 1*baseline 2/3*baseline */
   display: block;
 }
 
@@ -18,19 +19,26 @@ footer {
   margin: 0 auto;
 }
 
+p {
+  margin: 1.5rem 0 0; /* 24px; 1*baseline */
+}
+
 h1.question {
-  font-size: 2.25rem;
-  margin: 0.67em 0;
+  font-size: 2.25rem; /* 36px */
+  line-height: 3rem; /* 48px; 2*baseline */
+  margin: 1.5rem 0 0; /* 24px; 1*baseline */
   font-weight: 700;
   text-align: center;
 }
 
 p.answer {
-  font-size: 7.594rem;
-  margin: 1rem 0;
+  font-size: 7.594rem; /* 121.5px */
+  line-height: 9rem; /* 144px; 6*baseline */
+  margin: 1.5rem 0 0; /* 24px; 1*baseline */
   font-weight: 800;
   text-align: center;
   text-transform: uppercase;
+  color: #00B0C7;
 }
 
 .comparison {
@@ -38,7 +46,7 @@ p.answer {
   grid-template-columns: 1fr 1fr;
   column-gap: 1rem;
   align-items: end;
-  max-width: 30rem;
+  max-width: 32rem;
   margin: 0 auto;
 }
 
@@ -50,13 +58,15 @@ p.answer {
 .comparison section :nth-child(5) { grid-row-start: 5; }
 
 .comparison h2 {
-  font-size: 1.5rem;
+  font-size: 1.5rem; /* 24px; 1*baseline */
+  line-height: 1.5rem; /* 24px; 1*baseline */
+  margin: 1.5rem 0; /* 24px; 1*baseline */
   font-weight: 800;
   text-transform: uppercase;
 }
 
 .comparison h2 img {
-  width: 5rem;
+  width: 5rem; /* 5+1rem; 4*baseline */
   margin-bottom: 1rem;
   display: block;
 }
@@ -69,14 +79,17 @@ p.answer {
 }
 
 .comparison h3 {
-  font-size: 1.25rem;
-  margin: 1rem 0 0;
+  font-size: 1.25rem; /* always two lines: 2*20px */
+  line-height: 1.5rem; /* 24px; 1*baseline */
+  margin: 0;
 }
 
 .comparison p.count {
-  font-size: 2.813rem;
+  font-size: 2.813rem; /* 45px */
+  line-height: 3rem; /* 48px; 2*baseline */
+  margin-top: .3rem;
+  margin-bottoM: 1.2rem;
   font-weight: 700;
-  margin: 0;
 }
 
 .comparison .side-effects {
@@ -88,7 +101,7 @@ p.answer {
 }
 
 .faq {
-  margin: 2rem 0 0;
+  margin: 3rem 0 0;
   text-align: center;
 }
 
@@ -97,19 +110,20 @@ p.answer {
 }
 
 .snow-logo {
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   text-align: center;
 }
 
 .snow-logo img {
   display: inline-block;
-  width: 150px;
+  height: 55px;
+  padding: 7px 10px 10px;
 }
 
 .credits {
   text-align: center;
-  margin-top: 2rem;
-  font-size: 0.667rem;
+  margin-top: 0;
+  font-size: 0.667rem; /* 10.667px */
 }
 
 .credits a {
@@ -124,7 +138,7 @@ p.answer {
 
 @media only screen and (min-width: 35em) {
   body {
-    margin: 3rem;
+    margin: 3rem 3rem 1.5rem;
   }
 
   .comparison {
