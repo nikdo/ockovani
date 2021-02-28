@@ -1,0 +1,2 @@
+# ockovani
+https://jeockovanibezpecne.cz
