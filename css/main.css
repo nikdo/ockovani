@@ -120,20 +120,9 @@ p.answer {
   text-decoration: none;
 }
 
-.snow-logo {
-  margin-top: 1.5rem;
-  text-align: center;
-}
-
-.snow-logo img {
-  display: inline-block;
-  height: 55px;
-  padding: 7px 10px 10px;
-}
-
 ul.credits {
   text-align: center;
-  margin-top: 0;
+  margin-top: 4.5rem; /* 72px; 3*baseline */
   font-size: 0.667rem; /* 10.667px */
   line-height: 1rem; /* 16px; 2/3*baseline */
   list-style: none;
