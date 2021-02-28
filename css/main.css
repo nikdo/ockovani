@@ -1,24 +1,73 @@
-/*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
-
-/* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
-/*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
-
-/* ==========================================================================
-   Base styles: opinionated defaults
-   ========================================================================== */
+/* Modular scale: https://www.modularscale.com/?16,20&px&1.5 */
 
 html {
-  color: #222;
-  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
   line-height: 1.4;
+  color: #222;
 }
+
+body {
+  margin: 1rem;
+  display: block;
+}
+
+h1.question {
+  font-size: 2.25rem;
+  margin: 0.67em 0;
+  font-weight: 700;
+  text-align: center;
+}
+
+p.answer {
+  font-size: 7.594rem;
+  margin: 1rem 0;
+  font-weight: 800;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.comparison {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1rem;
+}
+
+.comparison section { display: contents; }
+.comparison section :nth-child(1) { grid-row-start: 1; }
+.comparison section :nth-child(2) { grid-row-start: 2; }
+.comparison section :nth-child(3) { grid-row-start: 3; }
+.comparison section :nth-child(4) { grid-row-start: 4; }
+.comparison section :nth-child(5) { grid-row-start: 5; }
 
 .comparison img {
   width: 5rem;
+  margin-left: 2.5rem;
+  display: block;
+}
+
+.comparison h2 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.comparison h2 span {
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: none;
+  display: block;
+}
+
+.comparison h3 {
+  font-size: 1.25rem;
+  margin: 1rem 0 0;
+}
+
+p.count {
+  font-size: 2.813rem;
+  font-weight: 700;
+  margin: 0;
 }
 
 /*

@@ -12,6 +12,8 @@
   <meta property="og:url" content="">
   <meta property="og:image" content="">
 
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
@@ -23,34 +25,40 @@
 </head>
 
 <body>
-
-  <!-- Add your site or application content here -->
-  <h1 class="question">Je očkování bezpečné?</h1>
-  <p class="answer">Ano</p>
-  <p>Příchod očkování proti COVID-19 představuje významný pokrok v boji proti pandemii koronaviru. Čím více lidí bude očkováno, tím více se bude život navracet k normálu. Mnozí se ptají, zda je očkování proti nemoci COVID-19 bezpečné. A i když se někteří lidé potýkají s mírnými nežádoucími účinky, dá se pod tíhou důkazů prohlásit, že je očkování extrémně bezpečné.</p>
-  <div class="comparison">
-    <section class="vaccine">
-      <img src="img/vaccine.svg" />
-      <h2>Vakcína <span>proti COVID-19</span></h2>
-      <h3>Očkovaných proti COVIDu</h3>
-      <p class="vaccinated">31785</p>
-      <h3>Závažných vedlejších účinků</h3>
-      <p class="vaccine-side-effects">6</p>
-    </section>
-    <section class="virus">
-      <img src="img/virus.svg" />
-      <h2>COVID-19 <span>onemocnění</span></h2>
-      <h3>Infikovaních COVIDem</h3>
-      <p class="covid-infected">102015</p>
-      <h3>COVID úmrtí</h3>
-      <p class="covid-deaths">1370</p>
-    </section>
-  </div>
-  <p>
-    <a href="https://www.iniciativa-snih.cz/nejcastejsi-dotazy-kolem-ockovani/">
-      Nejčastější otázky kolem očkování
-    </a>
-  </p>
+  <main>
+    <h1 class="question">Je očkování bezpečné?</h1>
+    <p class="answer">Ano</p>
+    <p>Příchod očkování proti COVID-19 představuje významný pokrok v boji proti pandemii koronaviru. Čím více lidí bude očkováno, tím více se bude život navracet k normálu. Mnozí se ptají, zda je očkování proti nemoci COVID-19 bezpečné. A i když se někteří lidé potýkají s mírnými nežádoucími účinky, dá se pod tíhou důkazů prohlásit, že je očkování extrémně bezpečné.</p>
+    <div class="comparison">
+      <section class="vaccine">
+        <h2>
+          <img src="img/vaccine.svg" />
+          Vakcína
+          <span>proti COVID-19</span>
+        </h2>
+        <h3>Očkovaných proti COVIDu</h3>
+        <p class="count vaccinated">31785</p>
+        <h3>Závažných vedlejších účinků</h3>
+        <p class="count side-effects">6</p>
+      </section>
+      <section class="virus">
+        <h2>
+          <img src="img/virus.svg" />
+          COVID-19
+          <span>onemocnění</span>
+        </h2>
+        <h3>Infikovaných COVIDem</h3>
+        <p class="count covid-infected">102015</p>
+        <h3>COVID<br/>úmrtí</h3>
+        <p class="count covid-deaths">1370</p>
+      </section>
+    </div>
+    <p>
+      <a href="https://www.iniciativa-snih.cz/nejcastejsi-dotazy-kolem-ockovani/">
+        Nejčastější otázky kolem očkování
+      </a>
+    </p>
+  </main>
   <p>Iniciativa Sníh</p>
   <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
